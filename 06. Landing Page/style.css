@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+    .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    font-size: 20px;
+    color: brown;
+     text-decoration: underline;
+}
+#logo{
+    width: 40px;
+    height: 40px;
+}
+.logotitle{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logotitle img{
+    margin-right: 59px;
+}
+span{
+   margin-left: 40px;
+    
+}
+.btn button{
+    padding: 2px 2px;
+    color: rgb(121, 30, 30);
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.btn button:hover{
+    padding: 2px 2px;
+    background-color: rgb(67, 198, 67);
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.section{
+    margin-left: 5rem;
+    display: flex;
+}
+.section img{
+    width: 600px;
+    height: 400px;
+    margin: 60px 10px;
+}
+.section .exp{
+    width: 600px; 
+    height: 400px;
+    margin: 60px 10px;
+       
+}
+.section .exp h2{
+    margin-left: 40px;
+    font-size: 40px;
+    margin: 30px  50px ;
+}
+.btn-container button{
+    background-color: rgb(37, 176, 241);
+    margin: 50px ;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+.btn-container button:hover{
+    background-color: rgb(90, 224, 224);
+}

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <h2>MyDashboard</h2>
+
+        <nav>
+            <a href="#" class="active">🏠 Dashboard</a>
+            <a href="#">👤 Users</a>
+            <a href="#">📦 Products</a>
+            <a href="#">🛒 Orders</a>
+            <a href="#">💬 Messages</a>
+            <a href="#">⚙️ Settings</a>
+        </nav>
+
+        <a href="#" class="logout">🚪 Logout</a>
+    </aside>
+
+    <!-- Main -->
+    <main class="main">
+
+        <!-- Navbar -->
+        <header class="navbar">
+            <input type="text" placeholder="Search anything...">
+
+            <div class="profile">
+                🔔 &nbsp; 👩🏻‍💻 Zinab
+            </div>
+        </header>
+
+        <!-- Content -->
+        <section class="content">
+
+            <h1>Good morning, Zinab 👋</h1>
+            <p class="subtitle">Here's what's happening with your system today.</p>
+
+            <!-- Statistics -->
+            <div class="cards">
+
+                <div class="card">
+                    <span>👥</span>
+                    <p>Total Users</p>
+                    <h2>2,548</h2>
+                    <small>↑ 12% vs. last month</small>
+                </div>
+
+                <div class="card">
+                    <span>📦</span>
+                    <p>Total Products</p>
+                    <h2>1,245</h2>
+                    <small>↑ 8% vs. last month</small>
+                </div>
+
+                <div class="card">
+                    <span>🛒</span>
+                    <p>Total Orders</p>
+                    <h2>892</h2>
+                    <small>↑ 15% vs. last month</small>
+                </div>
+
+                <div class="card">
+                    <span>💰</span>
+                    <p>Total Revenue</p>
+                    <h2>$24,780</h2>
+                    <small>↑ 20% vs. last month</small>
+                </div>
+
+            </div>
+
+            <!-- Bottom section -->
+            <div class="bottom">
+
+                <!-- Overview -->
+                <div class="overview">
+                    <h2>Overview</h2>
+
+                    <div class="chart">
+                        <div class="bar" style="height: 40%"></div>
+                        <div class="bar" style="height: 60%"></div>
+                        <div class="bar" style="height: 75%"></div>
+                        <div class="bar" style="height: 50%"></div>
+                        <div class="bar" style="height: 80%"></div>
+                        <div class="bar" style="height: 65%"></div>
+                        <div class="bar" style="height: 90%"></div>
+                    </div>
+                </div>
+
+                <!-- Recent Activity -->
+                <div class="activity">
+                    <h2>Recent Activity</h2>
+
+                    <div class="activity-item">
+                        👤 <span>New user registered</span>
+                        <small>2 min ago</small>
+                    </div>
+
+                    <div class="activity-item">
+                        🛒 <span>New order placed</span>
+                        <small>12 min ago</small>
+                    </div>
+
+                    <div class="activity-item">
+                        💬 <span>New message received</span>
+                        <small>28 min ago</small>
+                    </div>
+
+                    <div class="activity-item">
+                        📦 <span>Product updated</span>
+                        <small>1 hour ago</small>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+    </main>
+
+</body>
+</html>
